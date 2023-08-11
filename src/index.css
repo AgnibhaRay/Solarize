@@ -1,0 +1,7 @@
+body {
+    background: url("./assets/background.webp") no-repeat;
+    background-size: initial;
+    backdrop-filter: blur(15px);
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
