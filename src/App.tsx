@@ -8,11 +8,11 @@ function App() {
     return (
         <>
             <div style={{position: "absolute", zIndex: 99, margin: "22px"}}>
-                <img src={ttv} className="logo" alt="Vite logo" height="85px" width="85px"/>
+                <img src={ttv} className="logo" alt="ttv-logo" height="85px" width="85px"/>
             </div>
             <main>
                 <div className="logo-module">
-                    <img src={logo} className="logo" alt="Vite logo" height="150px" width="150px"/>
+                    <img src={logo} className="logo" alt="Vite logo" height="170px" width="170px"/>
                 </div>
                 <div className="title-div">
                     <h1 className="title">Project Solarize</h1>
@@ -24,6 +24,10 @@ function App() {
                         Work in Progress 👷‍♂️👷‍♀️
                     </span>
                 </div>
+
+                <footer>
+                    ©️ Copyright 2023 Created by<strong> AbK and AgR.</strong>
+                </footer >
             </main>
         </>
     )

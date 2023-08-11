@@ -6,8 +6,6 @@ main {
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
-    backdrop-filter: blur(15px);
 }
 .progress {
     width: 50%;
@@ -87,20 +85,21 @@ main {
     border-radius: 22px;
     padding: 0 30px;
     color: white;
-    background: linear-gradient(270deg, #ff0000, #00ff00, #0000ff);
-    background-size: 400% 400%;
-    animation: AnimationName 2s ease infinite;
+    /*background: linear-gradient(270deg, #ff0000, #00ff00, #0000ff);*/
+    /*background-size: 400% 400%;*/
+    /*animation: AnimationName 2s ease infinite;*/
     transition: background-color 500ms linear;
-    transition: color 500ms linear;
 }
 .title-div:hover {
-    background: #651fff;
+    background: rgba(101, 31, 255, 0.6);
+    backdrop-filter: blur(45%);
     color: white;
 }
 
 .title-div h1 {
     font-weight: 500;
-    font-size: 35px;
+    font-size: 500%;
+    text-align: center;
 }
 
 .text-line{
@@ -114,9 +113,34 @@ main {
 
 .text-line span{
     display: flex;
-    font-size: 22px;
+    font-size: xxx-large;
     border-radius: 10px;
     padding: 20px;
     color: white;
     text-align: center;
+}
+.timestamp {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 200;
+    justify-content: space-between;
+    color: white;
+    margin-top: 10px;
+    align-items: center;
+}
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    height: fit-content;
+}
+
+footer {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
 }
