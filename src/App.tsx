@@ -10,10 +10,12 @@ function App() {
             <div style={{position: "absolute", zIndex: 99, margin: "22px"}}>
                 <img src={ttv} className="logo" alt="ttv-logo" height="85px" width="85px"/>
             </div>
+
+            <div className="logo-module">
+                <img src={logo} className="logo" alt="Vite logo" height="170px" width="170px"/>
+            </div>
             <main>
-                <div className="logo-module">
-                    <img src={logo} className="logo" alt="Vite logo" height="170px" width="170px"/>
-                </div>
+
                 <div className="title-div">
                     <h1 className="title">Project Solarize</h1>
                 </div>
